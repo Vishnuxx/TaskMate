@@ -1,4 +1,9 @@
+* {
+    
+  --button-primary : linear-gradient(73deg, rgba(255,0,183,1) 7%,  rgba(0,153,255,1) 100%);
+  --primary-highlight : linear-gradient(73deg, rgba(0,153,255,1) 7%, rgba(255,0,183,1) 100%); 
 
+}
 
 body{
   height: 100%;
