@@ -24,6 +24,7 @@
     font-weight: 500;
     transition-duration: 100ms;
     transition-property: all;
+    outline: none;
 }
 
 .startbutton:hover {
