@@ -1,4 +1,7 @@
 export enum APPROUTES {
     home = "/",
-    todo = "/todo"
+    todo = "/todo",
+    auth = "/auth",
+    login = "/auth/login",
+    signup = "/auth/signup"
 }
