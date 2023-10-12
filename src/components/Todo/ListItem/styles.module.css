@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+    align-items: center;
+   
+    padding: 3px 25px ;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+
+
+.checkbox_container {
+    padding-right:25px;
+}
+
+.title {
+    width: 100%;
+    padding: 4px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4d4d4d;
+    text-align: start;
+}
+
+.checked {
+    color: #ababab;
+    text-decoration: line-through;
+}
