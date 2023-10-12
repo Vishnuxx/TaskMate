@@ -1,9 +1,11 @@
+import styles from "./styles.module.css";
+
 import ListItem from "../../components/Todo/ListItem/ListItem";
-import ListView, { ListData } from "../../components/Todo/ListView/ListView";
 import ListControls from "../../components/Todo/ListControls/ListControls";
 import TextField from "../../components/Todo/TextField/TextField";
 import Card from "../../components/generic/Card.tsx/Card";
-import styles from "./styles.module.css";
+import { ListData } from "../../components/Todo/ListView/controller";
+import ListView from "../../components/Todo/ListView/ListView";
 
 const datas: ListData[] = [
 	{ title: "one", status: 0 },
