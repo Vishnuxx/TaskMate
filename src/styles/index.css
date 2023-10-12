@@ -1,7 +1,10 @@
 * {
     
-  --button-primary : linear-gradient(73deg, rgba(255,0,183,1) 7%,  rgba(0,153,255,1) 100%);
-  --primary-highlight : linear-gradient(73deg, rgba(0,153,255,1) 7%, rgba(255,0,183,1) 100%); 
+  --button-primary : linear-gradient(73deg, rgba(255,0,183,1) 7%,  rgb(106, 0, 255) 100%);
+  --primary-highlight : linear-gradient(73deg, rgb(106, 0, 255) 7%, rgba(255,0,183,1) 100%); 
+  --bg-light : #ffffff; 
+  --primary-bg-overlay : linear-gradient(73deg, rgba(255,0,183,0.5)  7%,  rgba(106, 0, 255,0.5) 100%); 
+  --highlight-option : rgb(106, 0, 255);
 
 }
 
