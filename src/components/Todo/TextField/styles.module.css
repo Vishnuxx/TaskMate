@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--bg-light);
+    padding: 15px 25px ;
+    box-sizing: border-box;
+}
+
+.checkbox_container {
+    padding-right:25px;
+}
+
+.input {
+    width: 100%;
+    padding: 4px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+button {
+    width: 50px;
+    background: var(--button-primary);
+}
